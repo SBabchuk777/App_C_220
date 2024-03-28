@@ -1,3 +1,4 @@
+using Slots.Game.Values;
 using UnityEngine;
 
 
@@ -5,6 +6,6 @@ public class CoinPurchaser : MonoBehaviour
 {
     public void AddCoins(float amount)
     {
-        CurrencyManager.Instance.AddCurrency(CurrencyType.Coins, amount);
+        Wallet.AddMoney((int) amount);
     }
 }
