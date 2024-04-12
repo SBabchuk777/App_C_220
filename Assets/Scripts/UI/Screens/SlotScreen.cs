@@ -1,3 +1,4 @@
+using Slots.Game.Values;
 using UnityEngine;
 
 
@@ -14,6 +15,8 @@ public class SlotScreen : PopupBase
 
     public void ShowShop()
     {
+        if (FreeSpins.Count > 0) return;
+        
         UIManager.Instance.ShowShop(true);
     }
 

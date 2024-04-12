@@ -199,7 +199,7 @@ namespace Slots.Game.Machine
             }
             else
             {
-                if (_betSelector.CurrentBet == 0 && !isFreeSpins)
+                if (_betSelector.CurrentBet == 0 && FreeSpins.Count <= 0)
                     _events.CallEndMoney();
 
                 _autoSpinToggle.isOn = false;
