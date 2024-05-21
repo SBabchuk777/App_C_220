@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd85fb60d06a4795b895ad6a322f7b7, type: 3}
   m_Name: IAPSettingsData
   m_EditorClassIdentifier: 
-  _usDemoIAP: 1
+  _usDemoIAP: 0
   _products:
-  - _name: Product_1
+  - _name: buy_50_coins
     _defaultPrice: 0.99$
     _type: 0
     _androidId: android_product_id1
     _iosId: com.ios.product.id1
-  - _name: Product_2
+  - _name: buy_150_coins
     _defaultPrice: 1.99$
     _type: 0
     _androidId: android_product_id2
     _iosId: com.ios.product.id2
-  - _name: Product_3
+  - _name: buy_500_coins
     _defaultPrice: 4.99$
     _type: 0
     _androidId: android_product_id3

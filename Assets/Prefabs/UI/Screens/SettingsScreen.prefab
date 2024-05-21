@@ -808,7 +808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5596458228834051505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1679,6 +1679,7 @@ GameObject:
   - component: {fileID: 5596458229717058065}
   - component: {fileID: 5596458229717058066}
   - component: {fileID: 5596458229717058067}
+  - component: {fileID: 666492336674089158}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1788,6 +1789,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &666492336674089158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596458229717058069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0991287c69c42428f39a7467bb8cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://privacybossofslots.ju.mp/
 --- !u!1 &5596458229756174607
 GameObject:
   m_ObjectHideFlags: 0
